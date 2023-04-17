@@ -1,7 +1,6 @@
 # seat reservation system
 
 Java Spring REST service that simulates a seat reservation system.
-Use an API platform like Postman to send requests.
 
 <hr>
 
