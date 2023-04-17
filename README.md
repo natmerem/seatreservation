@@ -14,5 +14,32 @@ build instructions
 
 <hr>
 
-REQUESTS
+HTTP REQUESTS
 
+All requests start with: http://localhost:28852
+<br>
+<br>
+```/seats``` \
+GET request that returns all seats
+
+```/purchase```  
+POST request for purchasing a seat ticket, returns a unique token \
+Request body:
+```
+{
+   "row": 9,
+   "column": 8
+}
+```
+
+```/return```  
+POST request for returning a ticket, need to specify the token of the seat being returned.  
+Request body:
+```
+{
+   "token": "ca2cf70f-750a-4fbe-b838-2f8cb9557780"
+}
+```
+
+```/stats?password=super_secret```  
+POST request for getting seating area statistics, like income earned, seats reserved
