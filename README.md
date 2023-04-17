@@ -2,7 +2,10 @@
 
 Java Spring REST service that simulates a seat reservation system.
 Use an API platform like Postman to send requests.
-build instructions
+
+<hr>
+
+Build instructions
 
 1. Use a terminal to clone the repo: ```git clone https://github.com/natmerem/seatreservation.git```
 2. Go to the project folder: ```cd seatreservation```
